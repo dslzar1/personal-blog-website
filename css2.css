@@ -1,0 +1,191 @@
+body {
+    margin-bottom: 10%;
+}
+body {
+background-color: #F8E9C8;
+}
+header{
+  position: absolute;
+  top:0%;
+  left: 0%;
+  width:100%;
+  margin: 0;
+  padding: 0;
+  background-color: #513B1C;
+}
+nav{
+  color: #BB7016;
+  float: right;
+  margin:30px 90px;
+}
+.nav ul{
+  list-style: none;
+}
+.nav ul li {
+  float: left;
+  transition: .3s;
+}
+.nav ul li a{
+  text-decoration: none;
+  color: white;
+  transition: .5;
+  font-size: 18px;
+  margin-left:16px;
+  text-transform: uppercase; 
+}
+.nav ul li:hover a{
+  text-decoration: none;
+  color: white;
+}
+a.button {
+        color: BB7016;
+        text-align: center;
+        display: inline-block;
+        font-size: 10px;
+        margin: 1px 1px;
+}
+.header-content{
+	margin-top:18%;
+	text-align: center;
+	font-style: italic;
+	color: #513B1C;
+}
+.header-content h1{
+  text-transform: uppercase;
+  font-size: 4em;
+  letter-spacing: 1px;
+  text-shadow: 2px 0.5px #C07823;
+  font-style: italic;
+  color: #513B1C;
+  text-align: center;
+}
+.header-content p {
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 20px auto;
+  font-weight: 400;
+}
+.fa-instagram {
+  background: #7E5C35;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #7E5C35;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.fa-twitter {
+  background: #7E5C35;
+  color: white;
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.logo{
+	float: left;
+}
+img{
+	float: left;
+	border: 5px solid #7D4708;
+	border-radius: 4px;
+	padding: 5px;
+	width: 550px;
+}
+.about-page{
+	margin-top:130px;
+	padding: 5px;
+	float: center;
+}
+h2{
+	text-align: center;
+	font-size: 35px;
+}
+p{
+	text-align: center;
+	font-size: 18px;
+}
+footer{
+	text-align: center;
+	margin-top: 40px;
+	
+}
+hr{
+	border: none;
+	height: 2px;
+	border-top: 2px solid #7D4708;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  float: left;
+  width: 25%;
+  padding: 50px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background-color: #D1B492;
+  color: white;
+  transform: rotateY(180deg);
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+dl{
+	text-align: center;
+	color: black;
+	line-height: 1.3;
+}
+dl dt{
+	font-weight: bold;
+	font-size: 18px;
+}
+dl dd{
+	font-size: 17px;
+}
+h3{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+.flip-card-back p{
+	color: black;
+	font-size: 17px;
+}

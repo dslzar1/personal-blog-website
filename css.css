@@ -1,0 +1,102 @@
+body {
+    margin-bottom: 10%;
+}
+body {
+background-color: #F8E9C8;
+}
+header{
+  position: absolute;
+  top:0%;
+  left: 0%;
+  width:100%;
+  margin: 0;
+  padding: 0;
+  background-color: #513B1C;
+}
+nav{
+  color: #BB7016;
+  float: right;
+  margin:30px 90px;
+}
+.nav ul{
+  list-style: none;
+}
+.nav ul li {
+  float: left;
+  transition: .3s;
+}
+.nav ul li a{
+  text-decoration: none;
+  color: white;
+  transition: .5;
+  font-size: 18px;
+  margin-left:16px;
+  text-transform: uppercase; 
+}
+.nav ul li:hover a{
+  text-decoration: none;
+  color: white;
+}
+a.button {
+        color: BB7016;
+        text-align: center;
+        display: inline-block;
+        font-size: 10px;
+        margin: 1px 1px;
+}
+.header-content{
+	margin-top:18%;
+	text-align: center;
+	font-style: italic;
+	color: #513B1C;
+}
+.header-content h1{
+  text-transform: uppercase;
+  font-size: 4em;
+  letter-spacing: 1px;
+  text-shadow: 2px 0.5px #C07823;
+  font-style: italic;
+  color: #513B1C;
+  text-align: center;
+}
+.header-content p {
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 20px auto;
+  font-weight: 400;
+}
+.fa-instagram {
+  background: #7E5C35;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #7E5C35;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.fa-twitter {
+  background: #7E5C35;
+  color: white;
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.logo{
+	float: left;
+}
+footer{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
