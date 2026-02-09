@@ -9,7 +9,7 @@ A multi-page blog-style website built using HTML, CSS, and JavaScript.
 - Custom styling with CSS
 
 ## How to Run
-Open `new 1.html` in a web browser.
+Open `index.html` in a web browser.
 
 ## Image Sources
 
